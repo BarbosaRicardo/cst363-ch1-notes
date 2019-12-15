@@ -27,5 +27,11 @@
     data from a table based on the values in specific columns.
     - An index is automatically created for a table's primary and non-primary keys.
 
-
+#How tables are related 
+- The vendor_id column in the invoices Figure 1-5 table is called a foreign key because it id's a related row in the vendor's table 
+    - A table may contain one or more foreign keys 
+- When you define a foreign key for a table in MySQL, you can have that foreign key enforce referential integrity. 
+    -Then, MySQL makes sure that any changes to the data in the database don't create invalid relationships between tables 
+- The most c ommon type of relationship is a one-to-many relationship as illustrated by the Vendors and Invoices tables. 
+    - A table can also have a one-to-one relationship or a many-to-many relationship with another table 
 
